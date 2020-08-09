@@ -19,7 +19,7 @@ public class HrEmployee implements java.io.Serializable {
 	private SysRole sysRole;
 	private HrPost hrPost;
 	private String uid;
-	private String pwd;
+	private String pwd;   //  ”√ªß√‹¬Î
 	private String name;
 	private String idcard;
 	private Date birthday;

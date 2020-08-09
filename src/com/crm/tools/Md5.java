@@ -3,6 +3,11 @@ package com.crm.tools;
 import java.security.MessageDigest;
 
 public class Md5 {
+	   public static void main(String[] args) {
+		String s="123456";
+		String result=Md5.MD5(s);
+		System.out.println(s);
+	}
 	public final static String MD5(String s) {
         char hexDigits[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};       
         try {
